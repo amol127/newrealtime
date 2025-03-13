@@ -1,0 +1,191 @@
+/* Apply custom styles here */
+
+
+body::-webkit-scrollbar{
+    display: none;
+
+}
+.top-sidebar {
+    background-color: red;
+    color: white;
+    padding: 0;
+    height: 10%;
+}
+
+.logo-container {
+    margin-left: 100px;
+    padding: 7px;
+}
+
+.language-dropdown {
+    text-align: right;
+}
+
+.navbar-brand a {
+    padding: 0; 
+    margin: 0; 
+}
+
+.navbar {
+    background-color: #007bff; 
+    color: #fff;
+}
+.navbar-nav .nav-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-nav .nav-item::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+
+.navbar-nav .nav-item:hover::before {
+    width: 100%;
+}
+
+/* Navbar link styles */
+.navbar-nav .nav-link {
+    color: #fff; /* Default text color */
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    color: #fff; /* Text color on hover (no change) */
+}
+.navbar-brand i {
+    font-size: 25px;
+}
+
+#carouselExampleCaptions {
+    max-width: 100%; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the carousel horizontally */
+  }
+
+  
+  .carousel-image {
+    max-height: 600px; 
+    object-fit: cover; 
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    top: 50%; 
+    transform: translateY(-50%); 
+  }
+  
+  .fixed-element {
+    position: fixed;
+    bottom: 0; 
+    right: 0; 
+    background-color:transparent; 
+    padding: 10px;
+    z-index: 9999;
+}
+.fixed-element a{
+    padding: 0;
+    margin: 0;
+    padding-inline-start: 6px;
+    padding-inline-end: 6px;
+    border-radius: 40px;
+    background-color:floralwhite;
+    color: #0b0101;
+}
+
+.container-fluid.bg-light-gray {
+      
+    background-color: rgb(90, 94, 90); 
+    color: #fff;
+    margin-top: 0; 
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px;
+  }
+
+.container-fluid.bg-light-success {
+    margin-top: 0;
+    
+    background-color: #036914;
+    color: #f8f2f2;
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+   
+}
+.container-fluid.bg-light-success p{ 
+    margin-top: 40px;
+    font-family:sans-serif;
+} 
+
+.container-fluid.bg-light-success p span{
+    font-weight: 700;
+}
+.container-fluid.bg-light-danger{
+    background-color: antiquewhite;
+    margin-top: 0;
+    padding-inline-start: 10%;
+    font-weight: 700;
+}
+
+.container  .row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.card{
+    box-shadow:15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.container-fluid.bg-light-successes{
+    margin-top: 0;
+    background-color: #fff;
+    color: #0c0101;
+    padding-inline-start: 10%;
+    padding-inline-end: 10%;
+}
+.container-fluid.bg-light-successes p{ 
+    margin-top: 40px;
+    font-family:sans-serif;
+} 
+
+.container-fluid.bg-light-successes p span{
+    font-weight: 700;
+}
+
+@media (max-width: 767px) {
+    .top-sidebar {
+        font-size: small;
+        font-weight: 500;
+    }
+
+    .sidebar {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .language-dropdown {
+        text-align: center;
+    }
+
+    .logo-container {
+        text-align: left; 
+        margin-left: 0;
+        padding: 7px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      width: 30px; 
+      height: 30px; 
+    }
+    .container-fluid.bg-light-gray { 
+        margin-top: 0; 
+      }
+
+
+}

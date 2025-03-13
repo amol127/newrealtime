@@ -1,0 +1,16 @@
+.slideshow-container {
+    display: flex;
+    overflow: hidden;
+    width: 400px; /* Adjust the width as needed */
+    position: relative;
+}
+
+.slide {
+    flex: 0 0 50%; /* Display two images at a time */
+    transition: transform 1s ease;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

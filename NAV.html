@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Website</title>
+        <!-- Link to Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+        <!-- Animation cdn -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script src="https://your-ninjateam-url.com/whatsapp-chat-plugin.js"></script>
+
+        <link rel="stylesheet" href="D:\\Sager\\Project\\style.css"
+            type="text/css">
+    </head>
+    <body>
+        <div class="container-fluid ">
+            <div class="row top-sidebar">
+                <div
+                    class="col-6 d-flex justify-content-start align-items-center">
+                    Call +91-7876543234
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-center">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle"
+                            type="button" id="languageDropdown"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Language
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right"
+                            aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                            <li><a class="dropdown-item" href="#">Spanish</a></li>
+                            <li><a class="dropdown-item" href="#">French</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12 sidebar mb-3 logo-container">
+                    <div
+                        class="d-flex justify-content-between align-items-center">
+                        <img src="D:\\Sager\\Project\\logo.png" alt="Your Logo"
+                            width="40%" class="img-fluid">
+                        <div class="ml-auto">
+                            <nav
+                                class="navbar navbar-expand-lg navbar-light bg-light">
+                                <button class="navbar-toggler bg-primary"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav"
+                                    aria-controls="navbarNav"
+                                    aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+            <div class="container">
+                <div
+                    class=" d-flex justify-content-center align-items-center d-lg-none">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <a class="navbar-brand " href="#"><i class="bi bi-whatsapp"></i></a>
+                    <a class="navbar-brand " href="#"><i class="bi bi-facebook"></i></a>
+                    <a class="navbar-brand " href="#"><i class="bi bi-instagram"></i></a>
+
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Packaging</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <a class="navbar-brand d-none d-lg-block ml-auto" href="#"><i
+                        class="bi bi-whatsapp"></i></a>
+                <a class="navbar-brand d-none d-lg-block" href="#"><i
+                        class="bi bi-facebook"></i></a>
+                <a class="navbar-brand d-none d-lg-block" href="#"><i
+                        class="bi bi-instagram"></i></a>
+
+            </div>
+        </nav>
+
+        <div id="carouselExampleCaptions" class="carousel slide"
+            data-bs-ride="carousel" data-bs-interval="1500">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Slide-3.png" class="d-block w-100 carousel-image"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Slide-2.jpeg" class="d-block w-100 carousel-image"
+                        alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="slide-1.jpeg" class="d-block w-100 carousel-image"
+                        alt="...">
+                </div>
+            </div>
+            <!-- Carousel Controls -->
+            <a class="carousel-control-prev" href="#carouselExampleCaptions"
+                role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions"
+                role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+
+        <div class="container-fluid bg-light-gray p-0 m-0 " data-aos="fade-down"
+            data-aos-easing="linear" data-aos-duration="900">
+            <div class="row  p-0 m-0 ">
+                <div
+                    class="col-md-12 d-flex justify-content-center align-items-center">
+
+                    <h1>SAGER TRADEXIM</h1>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-light-success" data-aos="fade-right"
+            data-aos-easing="linear" data-aos-duration="1500">
+            <div class="row">
+                <div
+                    class="col-md-12  justify-content-center align-items-center">
+
+                    <p><span> Welcome to SAGER TRADEXIM ,</span> where
+                        we take pride in delivering the finest quality products
+                        from the bountiful lands of our country to the rest of
+                        the world. As an industry leader, we specialize in
+                        sourcing and exporting a wide range of agricultural
+                        commodities, spices, and grocery items to meet the
+                        diverse needs of our global clientele</p>
+
+                    <p>At the heart of our offerings lies the golden treasure
+                        known as turmeric. Renowned for its vibrant color,
+                        distinctive aroma, and remarkable health benefits,
+                        turmeric has captured the attention of culinary
+                        enthusiasts and health-conscious individuals worldwide.
+                        We understand the significance of this precious spice
+                        and aim to bring you the very best.</p>
+                    <p>Our turmeric is meticulously cultivated in the fertile
+                        soils of our region, where the perfect combination of
+                        climatic conditions and traditional farming methods
+                        result in superior quality. With a dedicated team of
+                        experts overseeing the entire production process, from
+                        seed selection to harvest, we ensure that every batch of
+                        turmeric meets the highest standards of purity,
+                        freshness, and flavor.</p>
+                    <p>In addition to turmeric, we also offer an array of other
+                        spices, including red chili powder, that will tantalize
+                        your taste buds and add an exquisite touch to your
+                        culinary creations. Our spices are carefully sourced
+                        from trusted farmers and suppliers who share our
+                        commitment to quality and sustainability.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-light-danger" data-aos="fade-down"
+            data-aos-easing="linear" data-aos-duration="900">
+            <div class="row">
+                <div class="col-md-12 justify-content-start  align-items-center">
+
+                    <h1>We Exports</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4" data-aos="flip-right"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <div class="card text-center bg-white pd-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="product-3.jpeg" alt
+                                    class="img-fluid">
+                            </div>
+                            <h3 class="card-title">Gingar Powder</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                                Nemo iste quos iure eligendi expedita magni
+                                optio at velit
+                                numquam incidunt.</p>
+                            <button class="btn btn-warning">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4" data-aos="flip-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <div class="card text-center bg-white pd-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="product-1.jpeg" alt
+                                    class="img-fluid">
+                            </div>
+                            <h3 class="card-title">Onion Powder</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                                Nemo iste quos iure eligendi expedita magni
+                                optio at velit
+                                numquam incidunt.</p>
+                            <button class="btn btn-warning">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4" data-aos="flip-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <div class="card text-center bg-white pd-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="product-2.jpeg" alt
+                                    class="img-fluid">
+                            </div>
+                            <h3 class="card-title">Garlic Powder</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                                Nemo iste quos iure eligendi expedita magni
+                                optio at velit
+                                numquam incidunt.</p>
+                            <button class="btn btn-warning">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-4" data-aos="flip-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <div class="card text-center bg-white pd-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="product-3.jpeg" alt
+                                    class="img-fluid">
+                            </div>
+                            <h3 class="card-title">Gingar Powder</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                                Nemo iste quos iure eligendi expedita magni
+                                optio at velit
+                                numquam incidunt.</p>
+                            <button class="btn btn-warning">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4" data-aos="flip-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <div class="card text-center bg-white pd-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="product-1.jpeg" alt
+                                    class="img-fluid">
+                            </div>
+                            <h3 class="card-title">Onion Powder</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                                Nemo iste quos iure eligendi expedita magni
+                                optio at velit
+                                numquam incidunt.</p>
+                            <button class="btn btn-warning">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-12 col-lg-4" data-aos="flip-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <div class="card text-center bg-white pd-2">
+                        <div class="card-body text-dark">
+                            <div class="img-area mb-4">
+                                <img src="product-2.jpeg" alt
+                                    class="img-fluid">
+                            </div>
+                            <h3 class="card-title">Garlic Powder</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit.
+                                Nemo iste quos iure eligendi expedita magni
+                                optio at velit
+                                numquam incidunt.</p>
+                            <button class="btn btn-warning">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-light-danger" data-aos="fade-down"
+            data-aos-easing="linear" data-aos-duration="900">
+            <div class="row">
+                <div class="col-md-12 justify-content-start  align-items-center">
+
+                    <h1>Why Choose Us</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid bg-light-successes" data-aos="fade-right"
+            data-aos-easing="linear" data-aos-duration="1500">
+            <div class="row">
+                <div
+                    class="col-md-12  justify-content-center align-items-center">
+                    
+
+                    <p>When it comes to exporting spices, grocery items, and agricultural products,
+                        we understand that you have numerous options to choose from. 
+                        However, there are several compelling reasons why Wai International 
+                        Impex stands out as the ideal partner for all your export needs:</p>
+
+                    <p><span> Uncompromising Quality:</span> where We are committed to delivering 
+                        products of the highest quality. Our stringent quality
+                         control measures ensure that every item we export meets
+                        the most rigorous standards, guaranteeing
+                        freshness, purity, and authenticity in every bite.</p>
+
+                    
+
+                    <p>
+                        <span> Product Range: </span>With our diverse range of spices, grocery items, and agricultural products, we offer a one-stop solution for all your sourcing requirements. From an extensive variety of spices to essential grocery staples and fresh produce, our wide selection caters to a multitude of culinary preferences
+                    </p>
+
+                    <p><span>Global Sourcing Network:</span> Our extensive network of trusted farmers and producers allows us to source the finest ingredients from around the world. We personally select each supplier to ensure their commitment to quality, sustainability, and ethical practices, providing you with the assurance that you are receiving products of exceptional standards.</p>
+                    
+                    <p><span> Customized Solutions:</span> We understand that every customer has unique requirements. Our dedicated team is committed to providing personalized service tailored to your specific needs. Whether you require a particular spice blend, a specific grocery item, or a specialized agricultural product, we work closely with you to fulfill your demands.</p>
+
+                    <p> <span>Reliable and Efficient:</span> We take pride in our reliability and efficiency in meeting our customers’ expectations. With streamlined logistics and robust supply chain management, we ensure timely delivery to your specified location, regardless of your geographical location.</p>
+
+                    <p> Customer Satisfaction:</span> At Wai International Impex, your satisfaction is our utmost priority. We value your trust and aim to exceed your expectations in every interaction. Our responsive and knowledgeable team is always available to address your inquiries, provide guidance, and assist you throughout the entire process.</p>
+
+                    <p><span>Competitive Pricing:</span> While we offer products of the highest quality, we also strive to maintain competitive pricing. We believe that exceptional quality should be accessible to all, and our commitment to fair pricing reflects our dedication to providing value for your investment.</p>
+
+                    <p>Choose Wai International Impex as your preferred exporter, and experience the difference that our commitment to quality, sustainability, and customer satisfaction can make. Join us in our culinary journey as we bring you the finest flavors from around the world, enhancing your culinary creations and delighting your taste buds.</p>
+               
+               
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid bg-light-danger" data-aos="fade-down"data-aos-easing="linear" data-aos-duration="900">
+        <div class="row">
+            <div class="col-md-12 justify-content-start  align-items-center">
+
+                <h1>Associated and Certified With</h1>
+            </div>
+        </div>
+    </div>
+  
+        <div class="fixed-element">
+            <a href="https://api.whatsapp.com/send?phone=7709676335"
+                class="btn btn-light fs-6 d-flex justify-content-end align-items-center">Need Help? <span style="font-weight: 700;">Chat With us &nbsp;</span><span class="text-success whatsapp-icon"> <i
+                class="bi bi-whatsapp " style="font-size: 2em;"></i></span></a>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+            crossorigin="anonymous"></script>
+        <script>
+        AOS.init();
+      </script>
+    </body>
+</html>
